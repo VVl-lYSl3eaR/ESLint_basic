@@ -7,7 +7,7 @@
         "target": "es6",
         "paths": {
             "*": ["./node_modules/@types/*"]
-          }
+        },
     },
     "include": [
         "./src/**/*"

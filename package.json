@@ -1,10 +1,12 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
   "devDependencies": {
     "@types/html-minifier-terser": "^5.1.1",
+    "@types/node-fetch": "^2.5.7",
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
-    "css-loader": "^5.0.1",
     "eslint": "^7.15.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-import-resolver-alias": "^1.1.2",
@@ -19,15 +21,15 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
-  "name": "vttconvertor_1.0",
+  "name": "subtitlebot_1.0",
   "version": "1.0.0",
-  "description": "Vtt 자막 변환기 ",
+  "description": "자막 크롤러 ",
   "main": "./dist/index.js",
   "author": "VVl-lYSl3eaR <dmswodi123@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack serve --mode development --env development",
-    "test": "jest"
+    "build": "tsc",
+    "test": "jest",
+    "dodo": "node ./dist/index.js"
   }
 }

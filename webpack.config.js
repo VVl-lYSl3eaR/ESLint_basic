@@ -4,15 +4,16 @@ const config = {
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js'
+    filename: 'index.js',
+    globalObject: 'this',
   },
   module: {
     rules: [
-      {test: /\.ts$/, loader: 'ts-loader' }
-    ]
+      { test: /\.ts$/, loader: 'ts-loader' },
+    ],
   },
   resolve: {
-    extensions: [".ts", ".js"]
+    extensions: ['.ts', '.js'],
   },
 };
 
