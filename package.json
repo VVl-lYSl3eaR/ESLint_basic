@@ -21,15 +21,15 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
   },
-  "name": "subtitlebot_1.0",
+  "name": "typescript_basic",
   "version": "1.0.0",
-  "description": "자막 크롤러 ",
+  "description": "Basic TS ",
   "main": "./dist/index.js",
   "author": "VVl-lYSl3eaR <dmswodi123@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "dodo": "node ./dist/index.js"
+    "run": "node ./dist/index.js"
   }
 }
