@@ -3,7 +3,7 @@
 ## PreInstall Package
 ### IN VSCode
   > MUST INSTALL Extension.
-  > dbaeumer.vscode-eslint
+  > `dbaeumer.vscode-eslint`
 
 ## INSTALL
   > yarn install
